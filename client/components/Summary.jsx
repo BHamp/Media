@@ -66,11 +66,11 @@ class Summary extends React.Component {
               )
             </ReviewCount>
           </ReviewValue>
-          <TopPadding><BlerbHeader>RELEASE DATE: </BlerbHeader></TopPadding>
+          <BlerbHeader>RELEASE DATE: </BlerbHeader>
           <ReleaseDate>{dateString}</ReleaseDate>
-          <TopPadding><BlerbHeader>DEVELOPER: </BlerbHeader></TopPadding>
-          <DevHeader><Blerb>{details.developer}</Blerb></DevHeader>
-          <PubHeader><BlerbHeader>PUBLISHER: </BlerbHeader></PubHeader>
+          <BlerbHeader>DEVELOPER: </BlerbHeader>
+          <Blerb>{details.developer}</Blerb>
+          <BlerbHeader>PUBLISHER: </BlerbHeader>
           <span><Blerb>{details.publisher}</Blerb></span>
         </Grid3>
         <TagHeader>Popular user-defined tags for this product:</TagHeader>

@@ -101,6 +101,7 @@ export const SplashImage = styled.img`
 
 export const Description = styled.p`
   margin-top: 1rem;
+  margin-bottom: 1rem;
   height: 75px;
   overflow-y: scroll;
   font-size: 13px;
@@ -157,7 +158,7 @@ export const ReleaseDate = styled.span`
   font-size: 12px;
   line-height: 16px;
   color: #8f98a0;
-  padding-top: 12px;`;
+  padding-top: 0px;`;
 
 export const DevHeader = styled.span`
   padding-top: 10px;`;
@@ -253,7 +254,7 @@ export const Shadow = styled.div`
   height: 100%;
   background-color: #171920;
   opacity: 95%;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;`;
 
@@ -344,7 +345,7 @@ export const OverlayHover = styled.p`
   z-index: 1000;
   position: absolute;
   left: 80px;
-  top: 53px;
+  top: 38px;
   border: 1px black solid;
   border-radius: 3px;
   background-color: rgb(161, 162, 163);
