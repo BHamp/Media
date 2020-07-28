@@ -2,8 +2,9 @@
 This is the Media/Summary component for the Front End Capstone done at Hack Reactor. Our team replicated the Steam website, and this is a simplified version of the reviews module for sample games.
 
 This app:
-* renders and appends review data to the page
-* incorporates UI with each review like linking to the full review or showing profile data
+* Renders video and images to the webpage
+* Utilizes conditional rendering to ensure different media types are handled appropriately
+* Implements styled-components to allow seamless integration with other the other microservices
 
 ## Getting Started
 
