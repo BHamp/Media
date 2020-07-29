@@ -6,6 +6,10 @@ This app:
 * Utilizes conditional rendering to ensure different media types are handled appropriately
 * Implements styled-components to allow seamless integration with other the other microservices
 
+![media demo](MediaPic.png)
+
+![tag modal demo](Tag-Overlay.png)
+
 ## Getting Started
 
 ### Installation
