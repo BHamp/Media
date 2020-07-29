@@ -9,7 +9,7 @@ import TagOverlay from './components/TagOverlay.jsx';
 import Navbar from './components/Navbar.jsx';
 import {
   GlobalStyle, MediaBackground, MediaTitle, MediaFilepath,
-  MediaFilepathLink, Button, Grid1, MediaHighlights, Grid2, GameTitle,
+  MediaFilepathLink, Button, Grid1, MediaHighlights, Grid2, GameTitle
 } from './StyledComponents.jsx';
 
 class App extends React.Component {

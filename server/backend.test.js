@@ -9,7 +9,7 @@ const request = supertest(app);
 beforeAll(async () => {
   const url = `mongodb://127.0.0.1/${databaseName}`;
   await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
-}); 
+});
 
 test('should add 2 and 2', () => {
   expect(2 + 2).toEqual(4);
