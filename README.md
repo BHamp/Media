@@ -16,9 +16,9 @@ cmd + c (exits build script)
 npm run seed (runs a custom data generation script and seeds it into a MongoDB database)
 cmd + c (exits seeding script)
 npm start (starts the server)
-
-Component can be accessed at http://localhost:8000/?=1. Change the id number after ?= to any number between 1 and 100 to access different games. It is currently setup to use sample data, but a curated game page can be accessed with id 237.
 ```
+Component can be accessed at http://localhost:8000/?=1. Change the id number after ?= to any number between 1 and 100 to access different games. It is currently setup to use sample data, but a curated game page can be accessed with id 237.
+
 
 ### Running the tests
 ```sh
